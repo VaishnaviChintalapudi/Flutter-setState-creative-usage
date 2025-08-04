@@ -50,7 +50,7 @@ class _CounterExampleState extends State<CounterExample> {
       decoration = BoxDecoration(
           color: bgColor,
           shape: BoxShape.rectangle,
-          borderRadius: BorderRadius.circular(20));
+          borderRadius: BorderRadius.circular(50));
       boxShape = null;
     } else {
       decoration = BoxDecoration(color: bgColor, shape: BoxShape.circle);
